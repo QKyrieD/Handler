@@ -1,0 +1,9 @@
+when you get handler to resolve message,you need a looper to complete.
+So , How can we understand clearly.Now ! Let's get it.
+
+1, MessageQueue: Looper
+ public class LooperThread extends Thread{
+        public void run(){
+        Looper.prepare();
+        
+        }
